@@ -9,11 +9,11 @@ casestudy:
 
 ## Spécifications
 
-Tailwind Traders se porte très bien et augmente ses effectifs. Ils ont acquis avec succès un détaillant en ligne dans le secteur des vêtements de sport. L’entreprise a également confié la réalisation de ses supports marketing à un tiers. Tailwind Traders utilise Azure Active Directory pour les comptes et les groupes d’utilisateurs. Voici deux initiatives spécifiques dans lesquelles le service informatique souhaite obtenir de l’aide. 
+Tailwind Traders se porte très bien et augmente ses effectifs. Ils ont acquis avec succès un détaillant en ligne dans le secteur des vêtements de sport. L’entreprise a également confié la réalisation de ses supports marketing à un tiers. Tailwind Traders utilise Entra ID pour les comptes d’utilisateurs et de groupes. Voici deux initiatives spécifiques dans lesquelles le service informatique souhaite obtenir de l’aide. 
 
 **Nouveaux comptes d’utilisateur**
 
-  * Suite à l’acquisition du détaillant en ligne, Tailwind Traders comptera 75 employés supplémentaires. Tous les nouveaux utilisateurs disposent de comptes Active Directory Domain Services locaux dans le domaine existant du détaillant.
+  * Suite à l’acquisition du détaillant en ligne, Tailwind Traders comptera 75 employés supplémentaires. Tous les nouveaux utilisateurs disposent de comptes locaux dans le domaine existant du détaillant.
 
   * Le nouveau partenaire marketing devra fournir un accès d’entreprise à 15 de ses employés. Ces derniers disposent déjà d’identités Microsoft Entra dans le locataire Microsoft Entra du partenaire.  
 
