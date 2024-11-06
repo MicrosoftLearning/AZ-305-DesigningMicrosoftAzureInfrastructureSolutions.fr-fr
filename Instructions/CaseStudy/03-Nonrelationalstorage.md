@@ -33,9 +33,9 @@ Tailwind Traders souhaite réduire les coûts de stockage en réduisant le conte
 
       * Utiliserez-vous des niveaux d’accès aux objets blob ?
 
-      * Utiliserez-vous un stockage immuable ?
+      * Allez-vous utiliser un stockage immuable ?
 
-      * Dans quelle mesure l’accès au contenu sera-t-il sécurisé ?
+      * Comment allez-vous faire pour que le contenu soit accessible en toute sécurité ?
 
 2.  Votre solution doit tenir compte des médias, des supports marketing et des documents d’entreprise. Vos recommandations peuvent être différentes en fonction des données. Préparez-vous à étayer vos décisions. 
 
