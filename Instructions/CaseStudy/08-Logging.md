@@ -23,11 +23,11 @@ Le siège de Fabrikam exploite un petit centre de données dans un emplacement u
 
 ![Architecture logicielle de gestion de projets](media/fabrikam.png)
 
-- Le logiciel PM utilise une application Windows tierce. L’application s’exécute sur un cluster d’équilibrage de la charge réseau (NLB) à 2 nœuds avec un seul serveur principal Microsoft SQL Server.  
+- Le logiciel PM utilise une application Windows tierce. L’application s’exécute sur un cluster d’équilibrage de charge réseau à 2 nœuds avec un seul serveur principal Microsoft SQL Server.  
 
-- Les images et les documents sont stockés sur un lecteur mappé du serveur, qui réside sur un système NAS dédié.
+- Les images et les documents sont stockés sur un lecteur mappé du serveur, qui est hébergé sur une appliance NAS dédiée.
 
-- Les utilisateurs d’entreprise et le personnel de bureau utilisent un front-end web pour entrer des données telles que les planifications de livraison et les ordres de changement.
+- Les utilisateurs d’entreprise et le personnel de bureau utilisent un front-end web pour entrer des données telles que les planifications de livraison et les ordres de modification.
 
 -   Les superviseurs sur le terrain utilisent des ordinateurs portables Windows et des tablettes hors ligne pour enregistrer en permanence la progression de la construction et d’autres détails.  Ces modifications, telles que les nouveaux ordres de travail, sont stockées dans un fichier de modification local.  À la fin de chaque journée, les superviseurs reviennent au bureau pour se connecter au réseau sans fil et exécuter un petit script afin de charger le fichier de modification sur un serveur FTP.  Un deuxième script s’exécute ensuite chaque nuit pour traiter les fichiers de modification et introduire leur contenu dans la base de données de gestion de projets (Microsoft SQL Server).
 
